@@ -1,0 +1,48 @@
+html {
+  color: white;
+  background-color: black;
+  background-image: url("assets/fond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  background-attachment: fixed;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+#nav li {
+  display: inline;
+  list-style: none;
+}
+#nav a {
+  display: inline-block;
+  margin: 5px 50px;
+  text-decoration: none;
+}
+ul a:hover {
+  color: grey;
+}
+li a {
+  color: white;
+  font-weight: bold;
+}
+#title {
+  color: white;
+  padding: 20px;
+}
+.table {
+  border-collapse: collapse;
+  color: white;
+  width: 50%;
+}
+th,
+td {
+  border: solid grey;
+  padding: 40px;
+}
